@@ -12,8 +12,7 @@ print('''
 
 def hexer():
     pt  = input("insert a plain text: ")
-    lnpt = len(pt)
-    key = input("insert a key with length of %s: " % lnpt)
+    key = input("insert a key with length of %s: " % len(pt))
     if len(key) != len(pt):
         print("Please insert a key with the same length of the Plain Text.. ")
         exit()
